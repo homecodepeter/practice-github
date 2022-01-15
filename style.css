@@ -1,6 +1,6 @@
 body{
     background: rgb(0, 255, 213);
-    overflow: hidden;
+    overflow-x: hidden;
 }
 .main{
     width: 100%;
@@ -19,10 +19,41 @@ ul{
     width: 80%;
     display: block;
     list-style: none;
+    background:#fff;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 6px rgba(0,0,0,0.2);
 }
-ul li{
-    padding: .5rem;
+h1{
+    color: green;
+}
+h3{
+    color: red;
+}
+p{
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+/* h4{
+    color: red;
+} */
+ li{
     font-size: 1.6rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+p span{
+    color:rgba(233, 21, 21, 0.801);
+}
+button{
+    padding: 10px;
+    outline:none;
+    border:none;
+    background: #fff;
+    font-size: 1.2rem;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+h2{
+    color:cornflowerblue;
 }
