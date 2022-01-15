@@ -15,3 +15,14 @@ body{
     border-bottom-left-radius: 20px;
     border: none;
 }
+ul{
+    width: 80%;
+    display: block;
+    list-style: none;
+}
+ul li{
+    padding: .5rem;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+}
