@@ -1,5 +1,5 @@
 body{
-    background: rgb(0, 255, 213);
+    background: rgb(39, 141, 224);
     overflow-x: hidden;
 }
 .main{
@@ -24,7 +24,7 @@ ul{
     box-shadow: 0 0 5px 6px rgba(0,0,0,0.2);
 }
 h1{
-    color: green;
+    color: #fff;
 }
 h3{
     color: red;
@@ -32,6 +32,7 @@ h3{
 p{
     margin-bottom: 2rem;
     font-size: 1.4rem;
+    color: #fff;
 }
 /* h4{
     color: red;
