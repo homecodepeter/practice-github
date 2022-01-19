@@ -11,7 +11,7 @@ btn.addEventListener('click', e => {
       li.textContent = text;
       h2.textContent = num;
    if(h2.textContent >= 60){
-       var h1 = document.createElement('h1');
+       var h1 = document.createElement('h3');
        h1.textContent = "Good";
        li.append(h1);
    }
